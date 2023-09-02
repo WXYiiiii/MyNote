@@ -1,0 +1,21 @@
+-- 拉取提交
+	git pull
+
+	git add .
+	git commit -m ""
+	git push
+
+-- 分支
+	创建分支
+		git branch uat
+		git push -u origin uat
+
+	切换
+		git checkout uat
+	
+	查看
+		git branch -r     远程
+		git branch -a     本地
+
+-- 查看配置
+	 git config --list
